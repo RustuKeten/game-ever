@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: yellowgreen;
 }
 
 #game{
@@ -16,7 +17,7 @@
     top: 150px;
 }
 .animate{
-    animation: jump 500ms;
+    animation: jump 0.3s linear;
 }
 
 @keyframes jump{
@@ -38,4 +39,7 @@
 @keyframes block{
     0%{left:480px;}
     100%{left:-40px;}
+}
+p{
+    text-align: center;
 }
